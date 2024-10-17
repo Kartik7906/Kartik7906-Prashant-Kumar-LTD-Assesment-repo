@@ -84,3 +84,19 @@ A simple inventory management system built in JavaScript to track stock levels, 
 - **Restock Items:** Update stock levels by restocking specific items.
 - **Error Handling:** Handles invalid inputs, such as orders for non-existent products or insufficient stock.
 
+
+
+# Part-3: Database Query Handling
+
+This repository contains SQL queries for managing and retrieving data from an online bookstore database. The queries are designed to assist with analyzing customer purchases, calculating revenue, and managing book order details.
+
+## Database Schema
+
+The online bookstore consists of the following four tables:
+
+- **Customers** (`customer_id`, `name`, `email`): Stores customer information.
+- **Books** (`book_id`, `title`, `author`, `price`): Stores information about books available in the store.
+- **Orders** (`order_id`, `customer_id`, `order_date`): Stores information about orders placed by customers.
+- **OrderDetails** (`order_id`, `book_id`, `quantity`): Stores information about the books and quantities in each order.
+
+---
