@@ -72,3 +72,15 @@ There are several ways to extend or refactor this model:
 6. **Improve Order Tracking**: Add real-time order tracking and notifications using WebSockets or a service like Firebase.
 
 
+# Inventory Management System- Part 2
+
+A simple inventory management system built in JavaScript to track stock levels, process sales orders, and manage restocking in a warehouse.
+
+## Features
+
+- **Add Products:** Add new products to the inventory with their initial stock levels.
+- **Process Orders:** Reduce stock levels based on incoming sales orders.
+- **Restock Alerts:** Trigger alerts when stock levels drop below a predefined threshold (default: 10 units).
+- **Restock Items:** Update stock levels by restocking specific items.
+- **Error Handling:** Handles invalid inputs, such as orders for non-existent products or insufficient stock.
+
